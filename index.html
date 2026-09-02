@@ -39,7 +39,6 @@ body{
     color:white;
     font-family:"Cairo",sans-serif;
     overflow-x:hidden;
-    background-image: url('background.jpg')
 }
 
 button,
@@ -763,6 +762,20 @@ footer strong{
     border-radius:22px;
     object-fit:cover;
     box-shadow:0 10px 28px rgba(0,0,0,.10);
+}
+</style>
+
+
+<style id="fixed-background-style">
+.bg-video{
+    position:fixed;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    z-index:-2;
+    pointer-events:none;
 }
 </style>
 
